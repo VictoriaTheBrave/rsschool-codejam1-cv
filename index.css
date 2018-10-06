@@ -1,0 +1,9 @@
+* {
+    background: -webkit-linear-gradient(45deg, #bfd9bf 0%, #eff5ef 100%);
+    align-content: center;
+}
+body {
+    max-width: 1024px;
+    height: 100vh;
+    margin:0 auto;
+    }
