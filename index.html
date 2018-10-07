@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<div class="wrapper">
+	<div class="wrapper" itemscope="" itemtype="https://schema.org/Person">
 		<header>
 			<nav>
 				<a href="#personal-information">Personal information</a>
@@ -29,7 +29,7 @@
 		<section id="personal-information">
 			<h2>Personal Information</h2>
 			<div class="personal">
-				<img src="me.jpg" alt="My photo">
+				<img itemprop="image" src="me.jpg" alt="My photo">
 				<div class="key">
 					<p>First Name:</p>
 					<p>Last Name:</p>
@@ -37,16 +37,16 @@
 					<p>Home Town:</p>
 				</div>
 				<div class="value">
-					<p>Victoria</p>
-					<p>Likhuta</p>
-					<p>09.05.1994</p>
-					<p>Minsk</p>
+					<p itemprop="name">Victoria</p>
+					<p itemprop="familyName">Likhuta</p>
+					<p itemprop="birthDate">09.05.1994</p>
+					<p itemprop="homeLocation">Minsk</p>
 				</div>
 			</div>
 		</section>
 		<section id="contacts">
 			<h2>Contacts</h2>
-			<div class="contacts">
+			<div class="contacts" itemprop="contactPoint">
 				<div>
 					<p>Contact number:</p>
 					<p>Contact email:</p>
@@ -54,8 +54,8 @@
 					<p>GitHub Profile:</p>
 				</div>
 				<div>
-					<p>+375445367739</p>
-					<p>v1ktor1a09051994@gmail.com</p>
+					<p itemprop="telephone">+375445367739</p>
+					<p itemprop="email">v1ktor1a09051994@gmail.com</p>
 					<p><a href="https://www.linkedin.com/in/victoria-likhuta-b44b6116a/">Victoria Likhuta</a></p>
 					<p><a href="https://github.com/VictoriaTheBrave">VictoriaTheBrave</a></p>
 				</div>
@@ -67,15 +67,15 @@
 				I'm 24 years old and by now I know for sure what I want to achieve in my life.
 				My purpose is to become a real profesional in Web-programming.
 				I don't have any core IT-education but I'm sure that it's a feature, not a bug.
-				I'm a customs broker in the past, I worked as waitress during my study at University and I have a good
+				I'm a <span itemprop="jobTitle">customs broker</span> in the past, I worked as waitress during my study at University and I have a good
 				variety of experience.
 				My soft skills are good and I have broad-based knowledge.
 				The learning prospects in my past career were not really good.
 				I learned all I needed there in a year.
 				The possibility to learn is actually the main advantage of any IT-career.
 				I like to learn and do it really fast so I learn Java Script with pleasure.
-				My English level is not lower than Intermediate, I speak Spanish too (just need some practice).
-				I think I'll be very decent candidate for a Junior Developer Job.
+				My <span itemprop="knowsLanguage">English</span> level is not lower than Intermediate, I speak <span itemprop="knowsLanguage">Spanish</span> too (just need some practice) and a little <span itemprop="knowsLanguage">German</span>.
+				I think I'll be very decent candidate for a <span itemprop="jobTitle">Junior Developer</span> Job.
 				And I'll do my best to improve my technical skills and be up to the job perfectly well.
 			</p>
 		</section>
@@ -131,7 +131,7 @@
 					<p>Courses:</p>
 				</div>
 				<div class="value">
-					<p>Belarusian State University, Faculty of International Relations</p>
+					<p itemprop="alumniOf">Belarusian State University, Faculty of International Relations</p>
 					<p><a href="https://www.codecademy.com/users/6305470331/achievements">CodeAcademy courses (HTML +
 							CSS)</a></p>
 					<p><a href="https://www.coursera.org/learn/duke-programming-web">Programming Foundations with
@@ -140,7 +140,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="english">
+		<section id="english" itemprop="knowsLanguage">
 			<h2>English level</h2>
 			<p>
 				I started to learn English as my second language in my second year at the University.
