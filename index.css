@@ -10,9 +10,9 @@ body {
     height: 100vh;
     margin: 0 auto;
     background: #f8f3ed;
-    
     }
-    nav {
+    
+    nav, footer {
         text-align: center;
         padding: 10px 10px 0px;
         font-size: 16px;
@@ -54,7 +54,7 @@ body {
         /* grid-row-start: 1;
         grid-row-end: 7; */
     }
-    .personal p, .contacts p {
+    .personal p, .contacts p, .expirience a, .expirience p {
         height: 30px;
     }
     .personal .key {
@@ -63,12 +63,30 @@ body {
     .personal .value {
         align-self: center;
     }
-    .contacts {
+    .contacts, .skills, .expirience{
         display: grid;
-        max-width: 550px;
         grid-template-columns: 1fr 1fr;
     }
-    #summary p{
+    .contacts {
+        max-width: 550px;
+    }
+    #summary p, #english p {
     text-indent: 30px;
     text-align: justify;
-}
+    }
+    .skills, .expirience {
+    max-width: 650px;
+    }
+    .code-ex {
+    padding: 0px 30px;
+    }
+    .education {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    #english p {
+        margin-bottom: 30px;
+    }
+    footer {
+        margin-bottom: 40px;
+    }
