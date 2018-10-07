@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+	padding: 0;
+	font-family: 'K2D', sans-serif;
+	align-content: center;
+	color: #17313b;
+}
+
+body {
+	height: 100vh;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: #f8f3ed;
+}
+
+nav, footer {
+	padding: 10px 10px 0px;
+	font-size: 16px;
+	text-align: center;
+	color: #c8e0ea;
+}
+
+h1 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+div {
+	font-size: 22px;
+}
+
+.wrapper {
+	padding: 0px 30px;
+	background: #fff3e3;
+}
+
+a:hover {
+	color: #4798b8;
+}
+
+img {
+	float: left;
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+h2 {
+	margin: 20px 40px;
+}
+
+.personal {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	max-width: 800px;
+}
+
+.personal p, .contacts p, .expirience a, .expirience p {
+	height: 30px;
+}
+
+.key, .value {
+	align-self: center;
+}
+
+.contacts, .skills, .expirience{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.contacts {
+	max-width: 550px;
+}
+
+#summary p, #english p {
+	text-indent: 30px;
+	text-align: justify;
+}
+
+.skills, .expirience {
+	max-width: 650px;
+}
+
+.code-ex {
+	padding: 0px 30px;
+}
+
+.education {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+#english p {
+	margin-bottom: 30px;
+}
+
+footer {
+	padding-bottom: 40px;
+}
