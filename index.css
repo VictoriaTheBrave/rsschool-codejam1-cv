@@ -22,6 +22,7 @@ nav {
 nav a {
   box-sizing: border-box;
   padding: 0 5px;
+  font-style: italic;
 }
 
 h1 {
@@ -43,20 +44,19 @@ a:hover {
 	color: #4798b8;
 }
 
-img {
-	float: left;
-	margin-right: 30px;
-	border-radius: 50%;
-}
-
 h2 {
 	margin: 20px 40px;
 }
 
 .personal {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	max-width: 800px;
+  display: grid;
+	grid-template-columns: 1.5fr 1fr 1fr;
+  max-width: 800px;
+  margin-left: 75px;
+}
+
+img {
+  border-radius: 50%;
 }
 
 .personal p, .contacts p, .experience p, .skills p {
@@ -65,7 +65,11 @@ h2 {
 }
 
 .key, .value {
-	align-self: center;
+  align-self: center;
+}
+
+.key {
+  font-weight: bold;
 }
 
 .contacts, .skills {
@@ -100,6 +104,7 @@ h2 {
 
 .education td:first-child {
   width: 300px;
+  font-weight: bold;
 }
 
 .education p {
@@ -107,12 +112,16 @@ h2 {
 }
 
 .projects > * {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.projects p {
+  margin-left: 30px;
 }
 
 .projects h4 {
   margin-bottom: 10px;
-  text-align: center;
+  font-size: 26px;
 }
 
 #english h2+p {
